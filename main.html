@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Riku Takarada</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Zakiyudin Zulkarnain</h1>
+    <nav>
+      <a href="#">Landing</a>
+      <a href="#">About</a>
+      <a href="#">Blog</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+  <script>
+    // Example: Change background color on click of a link
+    const links = document.querySelectorAll('nav a');
+    links.forEach(link => {
+      link.addEventListener('click', function() {
+        document.body.style.backgroundColor = 'lightblue';
+      })
+    });
+  </script>
+</body>
+</html>
