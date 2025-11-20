@@ -3,27 +3,66 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Zakiyudin Zulkarnain</title>
-  <link rel="stylesheet" href="style.css">
+  <title>My Personal Website</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header, section, footer { padding: 20px; }
+    header { background: #4a90e2; color: white; }
+    nav a { margin: 0 10px; color: white; text-decoration: none; }
+    section { border-bottom: 1px solid #eee; }
+    .container { max-width: 800px; margin: auto; }
+    footer { background: #222; color: #ccc; text-align: center; }
+  </style>
 </head>
 <body>
   <header>
-    <h1>Zakiyudin Zulkarnain</h1>
-    <nav>
-      <a href="#">Landing</a>
-      <a href="#">About</a>
-      <a href="#">Blog</a>
-      <a href="#">Contact</a>
-    </nav>
+    <div class="container">
+      <h1>Cykip</h1>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
   </header>
-  <script>
-    // Example: Change background color on click of a link
-    const links = document.querySelectorAll('nav a');
-    links.forEach(link => {
-      link.addEventListener('click', function() {
-        document.body.style.backgroundColor = 'lightblue';
-      })
-    });
-  </script>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+        Write a short introduction about yourself here. Mention your interests, background, and what you do.
+      </p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <ul>
+        <li>
+          <strong>Project One:</strong> Brief description of your first project.
+        </li>
+        <li>
+          <strong>Project Two:</strong> Brief description of your second project.
+        </li>
+        <!-- Add more projects as needed -->
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>
+        You can reach me at: <a href="mailto:your.email@example.com">your.email@example.com</a>
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      &copy; 2024 Your Name. All rights reserved.
+    </div>
+  </footer>
 </body>
 </html>
