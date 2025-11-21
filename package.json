@@ -1,0 +1,11 @@
+{
+  "name": "psnlweb",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Personal web project",
+  "dependencies": {
+    "react": "*",
+    "react-dom": "*",
+    "react-wavify": "*"
+  }
+}
